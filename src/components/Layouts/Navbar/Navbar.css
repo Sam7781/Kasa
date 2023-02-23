@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    color:#FF6060;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top:40px;
+}
+.navbar > *:first-child{
+    margin-right: auto;
+}
+.header_logo {
+    margin-right: auto;
+    width:210px;
+    height: 68px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #FF6060;
+}
+.navbar a.active{
+    text-decoration: underline;
+
+}
+@media  screen and (width<=768px){
+    .navbar{
+    text-transform : uppercase;
+    margin-bottom: 19px;
+}
+.about{
+    padding-right: 50px;;
+}
+
+}
+@media (max-width: 768px) {
+    .about{
+        margin-right: -42px;
+    }
+    }

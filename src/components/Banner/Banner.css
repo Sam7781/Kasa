@@ -1,0 +1,58 @@
+.banner{
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 223px;
+    border-radius: 25px;
+    color:rgba(255, 255, 255, 1);
+    background-image: url("../../Assets/banner.png");
+    margin-top: 68px;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.banniere-sombre {
+    background-color: #000000;
+    border-radius: 25px;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    content: "";
+  }
+.banner h2{
+    color:white;
+    width:60%;
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    font-weight: 500;
+    left: 21.9%;
+    position: absolute;
+    top: 42%;
+    line-height:68.45%;
+    margin-bottom:69.04%
+}
+.bannerimg img{
+    opacity:1.09;
+}
+
+@media(max-width: 768px) {
+    .banner {
+        /* width: 98% !important; */
+      
+    }
+    .banner{
+      margin-top: 19px;  
+      margin-bottom: 21px;
+    }
+    .banner h2 {
+            width: 70% !important;
+           left: 18px;
+           
+        }
+}

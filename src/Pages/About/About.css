@@ -1,0 +1,32 @@
+.aboutCont{
+    padding-inline: 108px;
+}
+.banner ::before{
+    background-color: transparent;
+    
+}
+.about_drop{
+    margin-top: 31px;
+}
+.banner{
+    background-image: none;
+    
+
+}
+.banner img{
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 223px;
+    border-radius: 25px;
+    width:100%
+}
+.cont{
+    border-radius: 5px;
+    
+}
+@media (max-width: 768px) {
+    .aboutCont{
+        padding-inline: 0;;
+    }
+}

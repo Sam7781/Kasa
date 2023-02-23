@@ -1,0 +1,83 @@
+
+  .lienApp{
+    margin-top: 56px;
+    flex-basis: 32%;
+   
+  }
+  
+  .card-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #0000002e;
+    margin-block: 0;
+    margin-inline: 0;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    transition: transform 250ms ease-in-out;
+  
+    
+}
+.card-wrapper:hover {
+        transform: scale(1.03);
+    }
+    
+
+.card-img{
+    width:100%;
+    height: 340px;
+    border-radius: 10px;
+    object-fit: cover;
+   
+}
+.log-item{
+    width: 100%;
+    
+
+}
+.title{
+    color: white;
+    font-size: 18px;
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    Line-height:25.67px;
+   
+  
+
+}
+.card-title{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+     z-index: 1;
+    width: 100%;
+    height: 150px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 70%);
+    
+
+    border-radius: 10px;
+   
+}
+@media (max-width: 768px) {
+    .log-item{ 
+       width:100%;
+    }
+   
+    .lienApp{
+        flex-basis: 100%;
+        margin-top:21px;
+    }
+    .card-img{
+        width: 100%;
+    }
+    .card-wrapper{
+        margin:0;}
+        .log-items{
+            margin-top:21px;
+        }
+  
+}
