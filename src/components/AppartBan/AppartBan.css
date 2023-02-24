@@ -58,3 +58,16 @@ img.actif {
     border-width: 0;
     margin-right:23px;
 }
+/* .effacer{
+    opacity:0;
+} */
+  .Image_unique{
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    inset: 0;
+    width:100%;
+    height: 415px;
+    opacity: 1;
+    margin-top: 25.36px ;
+  }

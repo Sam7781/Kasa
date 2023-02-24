@@ -15,7 +15,7 @@ root.render(
   <BrowserRouter>
   <main className='body'>
     <Header />
-     <App />
+      <App />
      </main>
     <Footer />
     </BrowserRouter>

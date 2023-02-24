@@ -21,7 +21,9 @@ const prev = () => {
 }
 setPict(pict - 1) ;
 }
-
+if(pictures.length === 1){
+  return <img src={pictures} alt="image unique" className='Image_unique'/>
+}
   return (
     <div className='slide' >
       <div className='pictures'>
@@ -35,7 +37,7 @@ setPict(pict - 1) ;
     <span className='slideNum'>
         {pict + 1} / {pictures.length}
      </span>   
-      <button className='butNext' onClick={next}>
+      <button className='butNext ' onClick={next}>
       <i className='fas fa-chevron-right'></i>
     </button>
     
