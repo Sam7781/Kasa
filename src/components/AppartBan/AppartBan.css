@@ -43,18 +43,18 @@ img.actif {
     font-size: 96px;
     color:rgba(255, 255, 255, 1);
     border-width: 0;
+    margin-left:23px;
 }
 
 .butNext{
     cursor: pointer;
     position: absolute;
     top:35.74%;
-    left:92.26%;
     bottom: 35.44%;
     right: 0%;
     background-color: transparent;
     font-size: 96px;
     color:rgba(255, 255, 255, 1);
     border-width: 0;
-  
+    margin-right:23px;
 }
