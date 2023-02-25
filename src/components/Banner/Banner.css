@@ -42,17 +42,16 @@
 }
 
 @media(max-width: 768px) {
-    .banner {
-        /* width: 98% !important; */
-      
-    }
+   
     .banner{
       margin-top: 19px;  
       margin-bottom: 21px;
     }
     .banner h2 {
-            width: 70% !important;
+            width: 65% !important;
            left: 18px;
+           font-size: 24px;
+           height: 48px;
            
         }
 }

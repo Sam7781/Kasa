@@ -11,7 +11,7 @@ function Navbar() {
             <img src={logoh} alt='Logo header kasa'/>
          </div>
       </NavLink>
-      <NavLink to= '/' >
+      <NavLink to= '/' className="accueil">
             Accueil
       </NavLink>
       <NavLink to= '/About' className='about'>

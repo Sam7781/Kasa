@@ -26,16 +26,24 @@
 }
 @media  screen and (width<=768px){
     .navbar{
-    text-transform : uppercase;
-    margin-bottom: 19px;
-}
-.about{
-    padding-right: 50px;;
+        text-transform : uppercase; 
+        margin-bottom: 19px;
+        font-size: 12px;
+        width: 100%;
+        height: 47px;
+        gap:10px;
+        left: 20px;
+        top: 20px; 
+        
 }
 
+    .header_logo img {
+   
+        width:145px;
+        height: 47px;
+        
+    
 }
-@media (max-width: 768px) {
-    .about{
-        margin-right: -42px;
-    }
-    }
+
+
+}

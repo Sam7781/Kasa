@@ -22,7 +22,7 @@ body {
   
   @media (max-width: 768px) {
     .body{
-      width: 95%;
+     
       padding-inline: 20px;
     }
   }

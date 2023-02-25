@@ -114,6 +114,9 @@ h3{
     .rates{
        margin-top: 0%;
        align-items: start;
+       font-size: 24px;
     }
-  
+   .color{
+    font-size: 24px;
+   }
 }
