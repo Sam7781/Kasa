@@ -41,9 +41,15 @@
    
         width:145px;
         height: 47px;
-        
+       
     
 }
+.accueil, .about{
+   
+    font-weight: 500;
+    width:71px;
+    top:20%;
 
+}
 
 }

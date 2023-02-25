@@ -71,3 +71,16 @@ img.actif {
     opacity: 1;
     margin-top: 25.36px ;
   }
+  @media (max-width: 768px) {
+    .butNext, .butPrev{
+       font-size: 35px;
+      bottom: 60.25px;
+    }
+    .pictures{
+        height: 255px;
+
+    }
+    .slide img{
+        border-radius: 10px;
+    }
+}
